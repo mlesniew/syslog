@@ -1,4 +1,4 @@
-# syslog container image
+# [Simple syslog](https://gitlab.com/mlesniew/syslog)
 
 This container image provides a straightforward way to set up a syslog server.  It listens on port 514 (TCP and UDP) and prints all received logs to stdout.  This makes it easy to retrieve and monitor logs from the container using the `docker logs` command without the need to mount any volumes.
 
@@ -40,7 +40,7 @@ Replace `/path/to/custom.conf` with the actual path to your custom configuration
 
 ## Contributing
 
-If you have any suggestions or find issues with this container image, please feel free to create an issue or submit a pull request.
+If you have any suggestions or find issues with this container image, please feel free to create an issue or submit a pull request on [GitHub](https://gitlab.com/mlesniew/syslog).
 
 
 ## License
